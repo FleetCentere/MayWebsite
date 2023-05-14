@@ -1,12 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>User Input Example</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+  <h1>User Input Example</h1>
+  <form>
+    <label for="name">Enter your name:</label>
+    <input type="text" id="name" name="name">
+    <label for="value">Enter a value:</label>
+    <input type="text" id="value" name="value">
+    <button type="button" onclick="submitData()">Submit</button>
+  </form>
+  <div id="output"></div>
+  <script src="script.js"></script>
 </body>
 </html>
